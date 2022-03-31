@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Kanit;
+    src: url(/fonts/kanit-v11-latin/kanit-v11-latin-700.woff); 
+   }
+   @font-face {
+    font-family: Inter;
+    src: url(/fonts/inter-v8-latin/inter-v8-latin-regular.woff); 
+   }
+
 * {
     box-sizing: border-box;
 }
@@ -5,3 +14,93 @@
 a {
     text-decoration: none;
 }
+/*ul {
+    list-style: none;
+}*/
+
+.background-color {
+position: relative;
+margin: 360px;
+width: 1440px;
+height: 1024px;
+background: #D0D7FE;
+}
+
+.square {
+position: absolute;
+width: 1058px;
+height: 786px;
+left: 191px;
+top: 119px;
+background: #FFFFFF;
+}
+
+.title {
+position: absolute;
+width: 1058px;
+height: 786px;
+left: 456px;
+top: 87px;
+bottom: 659px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 133.02%;
+letter-spacing: 0.035em;
+color: #09165F;
+}
+
+.add-form {
+position: absolute;
+width: 700px;
+height: 56px;
+left: 185px;
+right: 371;
+top: 180px;
+
+background: #F3F5FF;
+border-radius: 50px;
+border-color: #FFFFFF;
+}
+
+.write-in-form {
+position: absolute;
+width: 700px;
+height: 56px;
+margin-left: 22px;
+top: 5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #B5B5B5;
+}
+
+.add-btn {
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 650px;
+top: 5px;
+
+background: #536DFF;
+border-radius: 50px;
+border-color: #536DFF;
+}
+
+.logo-img {
+position: absolute;
+left: 23%;
+right: 22%;
+top: 22%;
+bottom: 22%;
+}
+
+/*.items-container {
+    margin: 120px 247px 478px -650px;
+    list-style: none;
+}*/
