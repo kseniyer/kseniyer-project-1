@@ -6,6 +6,10 @@
     font-family: Inter;
     src: url(/fonts/inter-v8-latin/inter-v8-latin-regular.woff); 
    }
+   @font-face {
+    font-family: InterMedium;
+    src: url(/fonts/inter-v8-latin-500.woff); 
+   }
 
 * {
     box-sizing: border-box;
@@ -14,9 +18,13 @@
 a {
     text-decoration: none;
 }
-/*ul {
+ul {
     list-style: none;
-}*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
 
 .background-color {
 position: relative;
@@ -40,7 +48,7 @@ position: absolute;
 width: 1058px;
 height: 786px;
 left: 456px;
-top: 87px;
+top: 50px;
 bottom: 659px;
 
 font-family: 'Kanit';
@@ -58,7 +66,7 @@ width: 700px;
 height: 56px;
 left: 185px;
 right: 371;
-top: 180px;
+top: 150px;
 
 background: #F3F5FF;
 border-radius: 50px;
@@ -81,7 +89,7 @@ color: #B5B5B5;
 }
 
 .add-btn {
-    position: absolute;
+position: absolute;
 width: 46px;
 height: 46px;
 left: 650px;
@@ -100,7 +108,88 @@ top: 22%;
 bottom: 22%;
 }
 
-/*.items-container {
-    margin: 120px 247px 478px -650px;
-    list-style: none;
-}*/
+.info {
+position: absolute;
+width: 205px;
+height: -410px;
+left: -630px;
+top: 65px;
+
+font-family: 'InterMedium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 133.02%;
+color: #09165F;
+}
+
+.items-container {
+display: flex;
+margin: 90px 247px 440px -650px;
+padding: 0 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #09165F;
+}
+
+.add-list-item1 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 40px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;    
+}
+
+.add-list-item2 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+     
+}
+.add-list-item3 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+    
+}
+.add-list-item4 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+    
+}
+.add-list-item5 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+    
+}
+.add-list-item6 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+    
+}
+.add-list-item7 {
+ width: 650px;
+ flex-direction: column;
+ align-items: left;
+ padding: 30px 0px 10px 0;
+ border-bottom: 1px solid #DADADA;
+    
+}
+
